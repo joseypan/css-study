@@ -1,0 +1,46 @@
+/* float+margin-left/right */
+/* .two-column-layout{
+  width: 400px;
+  height: 400px;
+}
+.left{
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #f66;
+}
+.right{
+  margin-left: 100px;
+  height: 100%;
+  background-color: #66f;
+} */
+/* overflow+float */
+/* .two-column-layout{
+  width: 400px;
+  height: 400px;
+}
+.left{
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #f66;
+}
+.right{
+  overflow: hidden;
+  height: 100%;
+  background-color: #66f;
+} */
+/* flex */
+.two-column-layout{
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+.left{
+  width: 100px;
+  background-color: #f66;
+}
+.right{
+  flex: 1;
+  background-color: #66f;
+}

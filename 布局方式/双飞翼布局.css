@@ -1,0 +1,40 @@
+/* float+margin */
+/* .grail-layout{
+  width: 400px;
+  height: 400px;
+}
+.left{
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #f66;
+}
+.right{
+  float: right;
+  width: 100px;
+  height: 100%;
+  background-color: #66f;
+}
+.center{
+  margin: 0 100px;
+  height: 100%;
+  background-color: #3c9;
+} */
+/* flex */
+.grail-layout{
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+.left{
+  width: 100px;
+  background-color: #f66;
+}
+.center{
+  flex: 1;
+  background-color: #3c9;
+}
+.right{
+  width: 100px;
+  background-color: #66f;
+}
