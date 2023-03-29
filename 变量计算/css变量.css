@@ -1,0 +1,18 @@
+/* 使用变量 */
+:root{
+  /* css变量只能做属性值不能作属性名 */
+  /* 可以与字符串进行拼接 */
+  /* 可以使用calc()与数值单位连用 */
+  /* 作用域范围：在当前节点块级作用域和子节点块级作用域 */
+  --bg-color:red;
+}
+.title{
+
+  background-color: var(--bg-color);
+  height: 30px;
+}
+.desc{
+  margin-top: 10px;
+  background-color: var(--bg-color);
+  height: 40px;
+}
