@@ -1,0 +1,67 @@
+.center-layout{
+  width:400px;
+  height: 400px;
+  background-color:#f66
+}
+div{
+  width: 100px;
+  height: 100px;
+  background-color: #66f;
+}
+
+/* display:inline-block */
+/* .center-layout{
+  line-height: 400px;
+  text-align: center;
+  font-size: 0;//父节点声明font-size:0来消除行内块级元素与匿名行内盒的基线对齐差异
+}
+div{
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+/* display:table-cell */
+/* .center-layout{
+  display:table-cell;
+  vertical-align: middle;
+}
+div{
+  margin: 0 auto;    
+} */
+
+/* position */
+/* .center-layout{
+  position: relative;
+}
+div{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin:-50px 0 0 -50px;
+} */
+
+/* transform */
+/* .center-layout{
+  position: relative;
+}
+div{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+} */
+
+/* flex */
+/* .center-layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* flex+margin */
+.center-layout{
+  display: flex;
+}
+div{
+  margin: auto;
+}
