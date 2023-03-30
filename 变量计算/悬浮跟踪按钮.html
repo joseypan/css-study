@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./悬浮跟踪按钮.css" />
+  </head>
+  <body>
+    <a class="track-btn">
+      <span>妙用css变量，让你的CSS变得更心动</span>
+    </a>
+    <script>
+      const btn = document.querySelector(".track-btn");
+      const btnStyle = btn.style;
+      btn.addEventListener("mousemove", (e) => {
+        btnStyle.setProperty("--x", `${e.offsetX}px`);
+        btnStyle.setProperty("--y", `${e.offsetY}px`);
+      });
+    </script>
+  </body>
+</html>
